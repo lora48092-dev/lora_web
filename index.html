@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Modern</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --primary: #6366f1;
+      --bg: #f9fafb;
+      --text: #111827;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Web Saya</h1>
+    <p>Desain modern, bersih, dan responsif untuk era digital</p>
+  </header>
+
+  <div class="section">
+    <div class="card">
+      <h2>🌟 Tentang Saya</h2>
+      <p>Saya seorang pengembang web yang fokus pada pengalaman pengguna dan desain yang estetis.</p>
+    </div>
+    <div class="card">
+      <h2>🚀 Proyek Unggulan</h2>
+      <p>Website portofolio, aplikasi startup, dan dashboard interaktif untuk klien global.</p>
+    </div>
+    <div class="card">
+      <h2>📞 Hubungi Saya</h2>
+      <p>Email: halo@webmodern.id<br>Instagram: @webmodern</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Web Modern. Dibuat dengan ❤️ dan semangat inovasi.
+  </footer>
+</body>
+</html>
